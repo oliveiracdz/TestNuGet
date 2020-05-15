@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>TestNuGet</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Bright ran</Authors>
+    <Company>WS</Company>
+    <PackageDescription>This is used to test NuGet package.</PackageDescription>
+    <RepositoryUrl>https://github.com/TestGitHubPackagesRML/TestNuGet</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

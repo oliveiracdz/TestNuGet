@@ -1,0 +1,12 @@
+name: Publish NuGet Package
+
+on: push
+
+env:
+  MAIN_VER: 1
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
