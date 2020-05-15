@@ -2,8 +2,8 @@ name: Publish NuGet Package
 
 on: push
 
-# env:
-#   MAIN_VER: 1
+env:
+  MAIN_VER: 1
 
 jobs:
   publish:
@@ -19,3 +19,4 @@ jobs:
         run: |
           cd TestNuGet
           dotnet pack --configuration Release
+          dotnet nuget push "bin/Release/TestNuGet.1.0.0.nupkg" --source "github"
