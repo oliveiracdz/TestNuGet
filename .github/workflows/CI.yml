@@ -7,6 +7,12 @@ env:
 
 jobs:
   publish:
+    name: Publish
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Publish to GitHub Packages
+        run: |
+          dotnet pack --configuration Release
