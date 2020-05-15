@@ -15,4 +15,5 @@ jobs:
 
       - name: Publish to GitHub Packages
         run: |
+          cd TestNuGet
           dotnet pack --configuration Release
