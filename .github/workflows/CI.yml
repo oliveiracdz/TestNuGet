@@ -18,5 +18,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd TestNuGet
+          ls
           dotnet pack --configuration Release
           dotnet nuget push "bin/Release/TestNuGet.1.0.0.nupkg" --source "github"
