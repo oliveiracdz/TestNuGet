@@ -8,7 +8,7 @@
     <Authors>Bright Ran</Authors>
     <Company>WS</Company>
     <PackageDescription>This is used to test NuGet package.</PackageDescription>
-    <RepositoryUrl>https://github.com/TestGitHubPackagesRML/TestNuGet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/oliveiracdz/TestNuGet</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
